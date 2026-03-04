@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#F7F8FA" />
+
+  <title>Ray’s Tint - Premium Automotive Window Tint</title>
+  <meta name="description" content="Ray’s Tint provides clean, professional window tint installs with ceramic options, warranty coverage, and fast scheduling." />
+
+  <!-- Optional fonts (safe fallbacks in CSS). Remove if you want zero external requests. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Sticky header / top nav -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Ray’s Tint Home">
+        <span class="brand-icon" aria-hidden="true">
+          <img src="brand/logo-primary-cropped.png" alt="" width="921" height="179" decoding="async" />
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav-link" href="#packages">Packages</a>
+        <a class="nav-link" href="#quote">Quote</a>
+        <a class="nav-link" href="#reviews">Reviews</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-cta" href="#quote">Get Quote</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <div class="container mobile-menu-inner">
+        <a class="mobile-link" href="#packages">Packages</a>
+        <a class="mobile-link" href="#quote">Quote</a>
+        <a class="mobile-link" href="#reviews">Reviews</a>
+        <a class="mobile-link" href="#quote">Get Quote</a>
+        <a class="mobile-link" href="#gallery">Gallery</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero (OPEN - no widgets, no boxes) -->
+    <section class="hero" id="home" data-reveal>
+      <div class="container hero-inner">
+        <p class="eyebrow">Premium local install</p>
+        <h1>Clean <span class="accent">tint</span>.<br />Comfort you feel.</h1>
+        <p class="hero-sub">A sharp install for daily drivers, quoted to your exact vehicle.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#quote">Get Quote</a>
+          <!-- PHONE PLACEHOLDER: Replace the tel: number -->
+          <a class="btn btn-ghost" href="tel:+15555555555">Call</a>
+        </div>
+
+        <p class="muted small hero-foot">Simple process. Clean edges. No weird upsells.</p>
+      </div>
+    </section>
+
+    <!-- Spec strip (single row; replaces chips + feature cards) -->
+    <section class="spec-strip" id="specs" aria-label="Performance specs" data-reveal>
+      <div class="container">
+        <div class="spec-row" role="list">
+          <div class="spec" role="listitem">
+            <span class="spec-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 19c3-2 3-5 0-7m6 7c3-2 3-5 0-7m6 7c3-2 3-5 0-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="spec-label">Heat rejection</span>
+          </div>
+          <div class="spec" role="listitem">
+            <span class="spec-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3v3m0 12v3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1M3 12h3m12 0h3M4.2 19.8l2.1-2.1m11.4-11.4 2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 8a4 4 0 1 0 0 8" stroke="#D90429" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="spec-label">UV protection</span>
+          </div>
+          <div class="spec" role="listitem">
+            <span class="spec-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M9 12l6 0" stroke="#D90429" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="spec-label">Glare relief</span>
+          </div>
+          <div class="spec" role="listitem">
+            <span class="spec-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3 19 6.5V12c0 4.4-3.1 7.8-7 9-3.9-1.2-7-4.6-7-9V6.5L12 3Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M9.2 12.2 11 14l3.8-4" stroke="#D90429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="spec-label">Warranty</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages (minimal; not card grid) -->
+    <section class="section" id="packages" data-reveal>
+      <div class="container">
+        <div class="section-head">
+          <h2>Packages</h2>
+          <p class="muted">Pick a package. We’ll quote your exact vehicle.</p>
+        </div>
+
+        <div class="package-list" aria-label="Tint packages">
+          <a class="pkg-row" href="#quote" aria-label="Standard package - Get quote">
+            <div class="pkg-main">
+              <p class="pkg-name">Standard</p>
+              <p class="pkg-desc muted">Clean look + UV protection.</p>
+            </div>
+            <span class="pkg-cta" aria-hidden="true">Get quote</span>
+          </a>
+          <a class="pkg-row" href="#quote" aria-label="Ceramic package - Get quote">
+            <div class="pkg-main">
+              <p class="pkg-name">Ceramic</p>
+              <p class="pkg-desc muted">Better heat rejection. Clear visibility.</p>
+            </div>
+            <span class="pkg-cta" aria-hidden="true">Get quote</span>
+          </a>
+          <a class="pkg-row" href="#quote" aria-label="Custom request - Get quote">
+            <div class="pkg-main">
+              <p class="pkg-name">Custom request</p>
+              <p class="pkg-desc muted">Unique vehicles, match requests, special jobs.</p>
+            </div>
+            <span class="pkg-cta" aria-hidden="true">Get quote</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote (THE only heavy container) -->
+    <section class="section quote" id="quote" data-reveal>
+      <div class="container">
+        <div class="quote-shell" aria-label="Quote form">
+          <div class="quote-top">
+            <div>
+              <h2>Get a quote</h2>
+              <p class="muted">Two quick steps. We’ll confirm final pricing and install time.</p>
+            </div>
+
+            <div class="quote-steps" aria-label="Steps">
+              <button class="qstep" type="button" data-step-btn="1" aria-current="step">
+                <span class="qstep-num">1</span>
+                <span class="qstep-label">Vehicle</span>
+              </button>
+              <button class="qstep" type="button" data-step-btn="2">
+                <span class="qstep-num">2</span>
+                <span class="qstep-label">Preferred time</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="quote-body">
+            <form id="quoteForm" class="quote-form" novalidate data-step="1">
+              <div class="form-step" data-step="1" aria-label="Step 1: Vehicle">
+                <h3 class="step-title"><span class="step-dot" aria-hidden="true"></span>Vehicle</h3>
+
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" autocomplete="name" required />
+                    <p class="error" data-for="name" aria-live="polite"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="phone">Phone</label>
+                    <input id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="(555) 555-5555" />
+                    <p class="error" data-for="phone" aria-live="polite"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" />
+                    <p class="error" data-for="email" aria-live="polite"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="zip">ZIP</label>
+                    <input id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" placeholder="12345" required />
+                    <p class="error" data-for="zip" aria-live="polite"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="vehicle">Vehicle</label>
+                    <input id="vehicle" name="vehicle" placeholder="Year Make Model" required />
+                    <p class="error" data-for="vehicle" aria-live="polite"></p>
+                  </div>
+
+                  <div class="field field-full">
+                    <fieldset class="tile-group" aria-label="Services" role="group">
+                      <legend>Service</legend>
+
+                      <div class="tiles" role="list">
+                        <label class="tile" role="listitem">
+                          <input type="checkbox" name="serviceType" value="Full Vehicle Tint" />
+                          <span class="tile-main">
+                            <span class="tile-title">Full vehicle</span>
+                            <span class="tile-sub muted">Sides + rear windows.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile" role="listitem">
+                          <input type="checkbox" name="serviceType" value="Front Two" />
+                          <span class="tile-main">
+                            <span class="tile-title">Front two</span>
+                            <span class="tile-sub muted">Match existing tint.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile" role="listitem">
+                          <input type="checkbox" name="serviceType" value="Windshield Strip" />
+                          <span class="tile-main">
+                            <span class="tile-title">Windshield strip</span>
+                            <span class="tile-sub muted">Glare relief up top.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile" role="listitem">
+                          <input type="checkbox" name="serviceType" value="Full Windshield" />
+                          <span class="tile-main">
+                            <span class="tile-title">Full windshield</span>
+                            <span class="tile-sub muted">Full windshield coverage.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile" role="listitem">
+                          <input type="checkbox" name="serviceType" value="Removal / Re-tint" />
+                          <span class="tile-main">
+                            <span class="tile-title">Removal / re-tint</span>
+                            <span class="tile-sub muted">Old film + cleanup.</span>
+                          </span>
+                        </label>
+                      </div>
+
+                      <p class="error" data-for="serviceType" aria-live="polite"></p>
+                      <p class="help">Pick all that apply. We’ll quote the combined job.</p>
+                    </fieldset>
+                  </div>
+
+                  <div class="field field-full">
+                    <fieldset class="tile-group" aria-label="Film type" role="group">
+                      <legend>Film</legend>
+
+                      <div class="tiles tiles-2" role="list">
+                        <label class="tile is-radio" role="listitem">
+                          <input type="radio" id="filmInterest" name="filmInterest" value="" checked />
+                          <span class="tile-main">
+                            <span class="tile-title">Not sure yet</span>
+                            <span class="tile-sub muted">We’ll recommend the right option.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile is-radio" role="listitem">
+                          <input type="radio" name="filmInterest" value="Standard" />
+                          <span class="tile-main">
+                            <span class="tile-title">Standard</span>
+                            <span class="tile-sub muted">Privacy + UV. Best value.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile is-radio" role="listitem">
+                          <input type="radio" name="filmInterest" value="Carbon" />
+                          <span class="tile-main">
+                            <span class="tile-title">Carbon</span>
+                            <span class="tile-sub muted">Better heat feel. Richer look.</span>
+                          </span>
+                        </label>
+
+                        <label class="tile is-radio" role="listitem">
+                          <input type="radio" name="filmInterest" value="Ceramic" />
+                          <span class="tile-main">
+                            <span class="tile-title">Ceramic</span>
+                            <span class="tile-sub muted">Best heat rejection + clarity.</span>
+                          </span>
+                        </label>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+
+                <div class="step-actions">
+                  <button class="btn btn-primary" type="button" data-step-next>Continue</button>
+                  <p class="muted small">Step 2 is optional.</p>
+                </div>
+              </div>
+
+              <div class="step-divider" role="separator" aria-hidden="true"></div>
+
+              <div class="form-step" data-step="2" aria-label="Step 2: Preferred time">
+                <h3 class="step-title"><span class="step-dot" aria-hidden="true"></span>Preferred time</h3>
+                <p class="muted small">Optional. Pick a preferred slot. We’ll confirm by text/call.</p>
+
+                <div class="soft-cal" id="softCalendar" aria-label="Select a preferred slot">
+                  <div class="soft-cal-days" id="calDays" role="listbox" aria-label="Choose a day"></div>
+                  <div class="soft-cal-slots" id="calSlots" role="listbox" aria-label="Choose a time"></div>
+                  <input type="hidden" id="appointmentDay" name="appointmentDay" />
+                  <input type="hidden" id="appointmentTime" name="appointmentTime" />
+                </div>
+
+                <div class="field field-full">
+                  <label for="notes">Notes</label>
+                  <textarea id="notes" name="notes" rows="3" maxlength="240" placeholder="Anything helpful (existing tint, special requests, etc.)"></textarea>
+                </div>
+
+                <div class="step-actions step-actions-2">
+                  <button class="btn btn-ghost" type="button" data-step-back>Back</button>
+                  <button class="btn btn-primary" type="submit">Request quote</button>
+                </div>
+              </div>
+            </form>
+
+            <div id="successPanel" class="success" hidden role="status" aria-live="polite">
+              <h3 tabindex="-1">Request received</h3>
+              <p class="muted">We’ll reach out shortly with your exact quote and next available times.</p>
+              <div class="success-actions">
+                <a class="btn btn-ghost" href="#top">Back to top</a>
+                <button class="btn btn-primary" type="button" id="newRequestBtn">New request</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews (typography-first; no heavy cards) -->
+    <section class="section" id="reviews" data-reveal>
+      <div class="container">
+        <div class="section-head compact">
+          <h2>Reviews</h2>
+          <p class="muted">Real customers. Clean results.</p>
+        </div>
+
+        <div class="reviews-layout" aria-label="Customer reviews">
+          <div>
+            <div class="quotes">
+              <blockquote class="quote">
+                <p>“Perfect edges and the cabin stays noticeably cooler.”</p>
+                <footer class="muted">Customer A</footer>
+              </blockquote>
+              <blockquote class="quote">
+                <p>“On time, clean work, no bubbles. Exactly what I wanted.”</p>
+                <footer class="muted">Customer B</footer>
+              </blockquote>
+              <blockquote class="quote">
+                <p>“Fast scheduling and the ceramic option was worth it.”</p>
+                <footer class="muted">Customer C</footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- Decorative film-stack motif (no content; desktop balances layout) -->
+          <div class="reviews-art" aria-hidden="true">
+            <div class="film-stack" aria-hidden="true">
+              <span class="film f1"></span>
+              <span class="film f2"></span>
+              <span class="film f3"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery (small, bottom) -->
+    <section class="section" id="gallery" data-reveal>
+      <div class="container">
+        <div class="section-head compact">
+          <h2>Gallery</h2>
+          <p class="muted">A few recent installs.</p>
+        </div>
+
+        <div class="gallery-grid" aria-label="Work gallery">
+          <div class="gallery-item" data-title="Install 01" data-src="assets/IMG_0344.JPG" data-pos="50% 50%" aria-label="Install 01 photo">
+            <img class="gallery-thumb" src="assets/IMG_0344.JPG" alt="Install 01" loading="lazy" decoding="async" />
+            <span class="gallery-badge">Install 01</span>
+          </div>
+          <div class="gallery-item" data-title="Install 02" data-src="assets/IMG_0350.JPG" data-pos="50% 50%" aria-label="Install 02 photo">
+            <img class="gallery-thumb" src="assets/IMG_0350.JPG" alt="Install 02" loading="lazy" decoding="async" />
+            <span class="gallery-badge">Install 02</span>
+          </div>
+          <div class="gallery-item" data-title="Install 03" data-src="assets/IMG_0346.JPG" data-pos="50% 50%" aria-label="Install 03 photo">
+            <img class="gallery-thumb" src="assets/IMG_0346.JPG" alt="Install 03" loading="lazy" decoding="async" />
+            <span class="gallery-badge">Install 03</span>
+          </div>
+          <div class="gallery-item" data-title="Install 04" data-src="assets/IMG_0347.JPG" data-pos="50% 50%" aria-label="Install 04 photo">
+            <img class="gallery-thumb" src="assets/IMG_0347.JPG" alt="Install 04" loading="lazy" decoding="async" />
+            <span class="gallery-badge">Install 04</span>
+          </div>
+          <div class="gallery-item" data-title="Install 05" data-src="assets/IMG_0352.JPG" data-pos="50% 50%" aria-label="Install 05 photo">
+            <img class="gallery-thumb" src="assets/IMG_0352.JPG" alt="Install 05" loading="lazy" decoding="async" />
+            <span class="gallery-badge">Install 05</span>
+          </div>
+          <div class="gallery-item" data-title="Install 06" data-src="assets/IMG_0349.JPG" data-pos="50% 50%" aria-label="Install 06 photo">
+            <img class="gallery-thumb" src="assets/IMG_0349.JPG" alt="Install 06" loading="lazy" decoding="async" />
+            <span class="gallery-badge">Install 06</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Ray’s Tint</p>
+        <!-- SERVICE AREA PLACEHOLDER: Replace with your city/region -->
+        <p class="muted">Serving: Your City + surrounding areas</p>
+      </div>
+
+      <div>
+        <p class="footer-title">Hours</p>
+        <p class="muted">Mon-Sat: 9am-6pm</p>
+        <p class="muted">Sun: By appointment</p>
+      </div>
+
+      <div>
+        <p class="footer-title">Contact</p>
+        <!-- PHONE PLACEHOLDER: Replace the number and keep the tel: link -->
+        <p class="muted"><a class="footer-link" href="tel:+15555555555">(555) 555-5555</a></p>
+        <p class="muted"><a class="footer-link" href="mailto:quotes@raystint.example">quotes@raystint.example</a></p>
+      </div>
+
+      <div>
+        <p class="footer-title">Social</p>
+        <!-- SOCIAL PLACEHOLDERS: Replace with real links -->
+        <p class="muted"><a class="footer-link" href="#">Instagram</a></p>
+        <p class="muted"><a class="footer-link" href="#">Google</a></p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted small">© <span id="year"></span> Ray’s Tint. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile bottom bar -->
+  <div class="bottom-bar" role="region" aria-label="Quick actions">
+    <!-- PHONE PLACEHOLDER: Replace the tel: number -->
+    <a class="bb-btn bb-call" href="tel:+15555555555">Call</a>
+    <div class="bb-quote-wrap" role="group" aria-label="Quote actions">
+      <a class="bb-btn bb-quote" href="#quote">Get Quote</a>
+      <button class="bb-btn bb-admin" type="button" id="adminToggle" aria-label="Admin controls" aria-expanded="false" aria-controls="adminPanel">⋮</button>
+    </div>
+  </div>
+
+  <!-- Admin panel (soft version only): adjust gallery thumbnail framing locally -->
+  <div class="admin" id="adminPanel" aria-hidden="true" role="dialog" aria-label="Admin controls" hidden>
+    <div class="admin-overlay" data-admin-close="true"></div>
+    <div class="admin-card" role="document">
+      <div class="admin-head">
+        <p class="admin-title">Admin</p>
+        <button class="icon-btn" type="button" data-admin-close="true" aria-label="Close admin">×</button>
+      </div>
+
+      <div class="admin-body">
+        <p class="muted small">Adjust gallery thumbnail framing (saved on this device only).</p>
+
+        <div class="admin-list" id="adminCropList" aria-label="Thumbnail framing controls"></div>
+
+        <div class="admin-actions">
+          <button class="btn btn-ghost" type="button" id="adminReset">Reset</button>
+          <button class="btn btn-primary" type="button" id="adminCopy">Copy settings</button>
+        </div>
+        <p class="muted small" id="adminStatus" aria-live="polite"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
