@@ -24,7 +24,7 @@
 }
 
 *{ box-sizing: border-box; }
-html{ scroll-behavior: smooth; scrollbar-gutter: stable both-edges; }
+html{ scroll-behavior: smooth; }
 html, body{ overflow-x: hidden; }
 body{
   margin: 0;
