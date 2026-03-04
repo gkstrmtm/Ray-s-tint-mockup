@@ -1,5 +1,5 @@
 /*
-  Ray’s Tint — interactions
+  Ray’s Tint - interactions
   Required behaviors:
   - Smooth scrolling with header offset
   - Header changes style on scroll

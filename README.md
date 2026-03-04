@@ -10,7 +10,7 @@ Vercel always provides a free shareable URL like:
 
 You **do not need a custom domain** to share the preview.
 
-### Option A — Vercel Dashboard (recommended)
+### Option A - Vercel Dashboard (recommended)
 
 1. Go to Vercel → **Add New… → Project**
 2. Import this repo: `gkstrmtm/Ray-s-tint-mockup`
@@ -19,7 +19,7 @@ You **do not need a custom domain** to share the preview.
 
 Vercel will auto-detect `index.html`.
 
-### Option B — Vercel CLI (local deploy)
+### Option B - Vercel CLI (local deploy)
 
 From the repo folder:
 
