@@ -579,13 +579,13 @@ input:focus, select:focus, textarea:focus{ border-color: rgba(var(--accentRgb), 
 .quotes{ display:grid; gap: .9rem; }
 .reviews-layout{ display:grid; gap: 1.5rem; }
 .quotes{ max-width: 700px; }
-.quote{
+.quotes .quote{
   margin: 0;
   padding: .9rem 0 .9rem 1rem;
   border-left: 2px solid rgba(var(--accentRgb), .55);
 }
-.quote p{ margin: 0 0 .4rem; font-size: 1.06rem; }
-.quote footer{ font-family: var(--heading); font-weight: 700; letter-spacing: .18px; }
+.quotes .quote p{ margin: 0 0 .4rem; font-size: 1.06rem; }
+.quotes .quote footer{ font-family: var(--heading); font-weight: 700; letter-spacing: .18px; }
 
 /* Reviews decorative artifact */
 .reviews-art{ display:none; }
