@@ -156,7 +156,8 @@ a{ color: inherit; text-decoration: none; }
 /* Mobile "Gallery" Link (replaces Menu) */
 .nav-mobile-gallery{
   display: inline-block;
-  padding: .45rem .25rem;
+  padding: .5rem .75rem;
+  margin-right: .25rem;
   background: transparent;
   border: none;
   color: var(--text);
