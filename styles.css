@@ -489,7 +489,7 @@ input, select, textarea{
   outline: none;
   transition: border-color .18s var(--ease), transform .18s var(--ease);
 }
-textarea{ resize: vertical; min-height: 120px; }
+textarea{ resize: vertical; min-height: 96px; }
 input:focus, select:focus, textarea:focus{ border-color: rgba(var(--accentRgb), .45); box-shadow: 0 0 0 4px rgba(var(--accentRgb), .10); }
 
 .help{ margin: .4rem 0 0; font-size: .92rem; color: rgba(71,85,105,.95); }
@@ -822,6 +822,16 @@ input:focus, select:focus, textarea:focus{ border-color: rgba(var(--accentRgb), 
   .quote-top{ flex-direction: column; align-items:flex-start; }
   .quote-steps{ width: 100%; flex-wrap: wrap; }
   .qstep{ width: auto; }
+
+  .quote-top{ padding: 1.15rem 1rem .95rem; }
+  .quote-body{ padding: 1rem 1rem 1.15rem; }
+
+  .form-grid{ gap: .8rem; }
+  .field label{ margin: 0 0 .3rem; }
+  input, select, textarea{ padding: .82rem .9rem; }
+
+  .tiles{ gap: .55rem; }
+  .tile{ padding: .75rem .85rem; }
 }
 
 @media (min-width: 980px){
